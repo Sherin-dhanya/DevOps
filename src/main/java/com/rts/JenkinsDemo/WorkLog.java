@@ -4,11 +4,11 @@ public class WorkLog {
 
 	public String addToLog(String name)
 	{
-	return "Addedd Log for " +name;
+	return "Added Log for " +name;
 	}
 	public String addLogins(String loginname)
 	{
-	return "Addedd Login Log for " +loginname;
+	return "Added Login Log for " +loginname;
 	}
 
 }
