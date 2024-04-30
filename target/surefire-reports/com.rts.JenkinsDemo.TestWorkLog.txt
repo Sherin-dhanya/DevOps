@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.rts.JenkinsDemo.TestWorkLog
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.rts.JenkinsDemo.TestWorkLog
+testAddLog1(com.rts.JenkinsDemo.TestWorkLog)  Time elapsed: 0.001 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Added[] Log for Dhanya> but was:<Added[d] Log for Dhanya>
+	at com.rts.JenkinsDemo.TestWorkLog.testAddLog1(TestWorkLog.java:13)
+
+testAddLog2(com.rts.JenkinsDemo.TestWorkLog)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Added[] Log for Sherin> but was:<Added[d] Log for Sherin>
+	at com.rts.JenkinsDemo.TestWorkLog.testAddLog2(TestWorkLog.java:18)
+
+testAddLogins1(com.rts.JenkinsDemo.TestWorkLog)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Added[] Login Log for Dhanu> but was:<Added[d] Login Log for Dhanu>
+	at com.rts.JenkinsDemo.TestWorkLog.testAddLogins1(TestWorkLog.java:22)
+
+testAddLogins2(com.rts.JenkinsDemo.TestWorkLog)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Added[] Login Log for Ammu> but was:<Added[d] Login Log for Ammu>
+	at com.rts.JenkinsDemo.TestWorkLog.testAddLogins2(TestWorkLog.java:26)
+
